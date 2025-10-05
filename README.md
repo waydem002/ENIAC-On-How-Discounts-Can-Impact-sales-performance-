@@ -1,99 +1,54 @@
- Objective
+## Summary
+This project explores the impact of discounts on product sales performance for Eniac, with a focus on understanding when and how discounts help or hurt business outcomes.
 
-To determine how discounts impact sales performance and identify the conditions under which they help or hurt business outcomes.
+The goal was to identify the relationship between discount levels and sales volume, analyze the behavior of cheap vs. premium products, and examine seasonal trends like Black Friday and Christmas.
 
-Specifically:
-
-How different discount levels affect sales volume.
-
-Whether discounting cheaper vs. premium products yields different results.
-
-How seasonality (e.g., Christmas, Black Friday) drives spikes in sales.
-
-📊 Dataset Description
-
-The dataset includes transaction-level data such as:
-
-Product ID / Category
-
-Original Price & Discount (%)
-
-Units Sold / Sales Volume
-
-Revenue
-
-Date of Transaction
-
-🧹 Data Cleaning
-
-Removed missing or invalid discount entries.
-
-Standardized numeric columns (price, discount, revenue).
-
-Formatted dates for time-series analysis.
-
-Filtered out incomplete or duplicate records.
-
-🧠 Analysis & Insights
-1. Discount Distribution
-
-Most products were sold with discounts below 25% — indicating customers are highly responsive even to modest price reductions.
-
-2. Product Tier Impact
-
-Discounts significantly boost sales of cheaper products, showing high price sensitivity in that segment.
-Premium products, however, saw limited reaction to discounts — suggesting an opportunity to test new pricing tactics.
-
-3. Seasonality
-
-Black Friday and Christmas periods showed massive sales spikes, confirming that timing is a crucial factor in the effectiveness of discounts.
-
-4. Data Quality
-
-Consistent data cleaning and structuring improved the clarity of insights, demonstrating the importance of robust data collection systems.
-
-📈 Key Takeaways
-
-✅ Most products sell under 25% discount levels.
-✅ Discounts boost sales — especially for lower-priced items.
-✅ Seasonal promotions outperform general discounts.
-✅ Clean, structured data leads to more reliable insights.
-
-💡 Business Recommendations
-
-Focus discount strategies on low- to mid-tier products to maximize sales.
-
-Introduce targeted discount pilots for premium products to test elasticity.
-
-Align discount campaigns with seasonal high-traffic periods.
-
-Continue to improve data collection and quality assurance.
-
-🧭 Action Plan
-
-STANDARDIZE database & CAPTURE missing fields.
-
-Track DISCOUNTS and CAMPAIGNS explicitly.
-
-Pilot targeted DISCOUNT campaigns on premium products.
-
-PREPARE specific SEASONAL strategies to maximize timing effects.
-
-🧰 Tools & Technologies
-
+The findings revealed that most products are sold with discounts below 25%, and that discounts tend to boost sales of cheaper products. Seasonal campaigns also showed strong spikes in performance, confirming the importance of timing and targeted marketing strategies.
+## Languages and Libraries Used
 Python: Pandas, NumPy, Matplotlib, Seaborn
 
-Google Colab
+Google Colab for analysis and visualization
 
- CSV Files for dataset management
-│
-├── Data
-     brands.csv
-     orderlines.csv
-     orders.csv
-     products.csv
-├── notebooks/
-[Colab Notebook]( https://colab.research.google.com/drive/1LV0ivep1PsK7-cOxGFKY2maCWs5eBBbq?usp=sharing "Colab Notebook")
+CSV files as data sources
+Data/
+[brand csv](https://drive.google.com/file/d/1HW8JbeJq2f5XfGFJp0oLDQhBtuwLtuup/view?usp=sharing "brand csv"),
+[orderline csv](https://drive.google.com/file/d/1ZY0oUkNaje6bVNQxeU1vbLEvI4zNURf7/view?usp=sharing "orderline csv"),
+[orders csv](https://drive.google.com/file/d/1A0fVNDplcT8z3QydM46FwIFe6CcI1QUT/view?usp=sharing "orders csv"),
+[products csv](https://drive.google.com/file/d/1Of1t69wyShCZQ8Vx1YeBvZzuQE8qWvyx/view?usp=sharing "products csv")
 
-  VISUALISATION
+Notebooks/
+[Colab NoteBook](https://colab.research.google.com/drive/1LV0ivep1PsK7-cOxGFKY2maCWs5eBBbq?usp=sharing "Colab NoteBook")
+
+ VISUALISATION
+
+Visualisation/Slide presentation created to communicate findings and insights.
+Includes visual representations of:
+
+Discount distribution
+
+Product category performance
+
+Seasonal sales spikes
 [Visualisation/Slide](https://docs.google.com/presentation/d/1iTJx_3e7lEE64SNmQz-1Wi6asperRanoy5YXYFCSv9Y/edit?slide=id.g38098043384_0_317#slide=id.g38098043384_0_317 "Visualisation/Slide")
+
+## Key Learnings
+Improved understanding of data-driven pricing strategies.
+
+Gained experience with data cleaning, visual analysis, and insight communication.
+
+Strengthened ability to translate technical findings into business recommendations.
+
+Learned how seasonality and customer sensitivity shape effective discount planning.
+## Challenges Overcame
+Addressed missing and inconsistent data during cleaning.
+
+Managed imbalanced data between product categories.
+
+Ensured accurate date and time formatting for seasonality analysis.
+
+Simplified complex insights into business-friendly visualizations.
+## Additional Reflections
+This project reinforced the importance of data storytelling in business analysis.
+It demonstrated how simple metrics — like discount percentage — can have complex, multi-layered effects when analyzed with structured data and clear visualization.
+
+By understanding how discounts interact with product type and seasonality, Eniac can make smarter pricing decisions that balance customer attraction and profitability.
