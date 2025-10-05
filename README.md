@@ -9,8 +9,8 @@ Python: Pandas, NumPy, Matplotlib, Seaborn
 
 Google Colab for analysis and visualization
 
-CSV files as data sources
-Data/
+CSV files as Data sources
+
 [brand csv](https://drive.google.com/file/d/1HW8JbeJq2f5XfGFJp0oLDQhBtuwLtuup/view?usp=sharing "brand csv"),
 [orderline csv](https://drive.google.com/file/d/1ZY0oUkNaje6bVNQxeU1vbLEvI4zNURf7/view?usp=sharing "orderline csv"),
 [orders csv](https://drive.google.com/file/d/1A0fVNDplcT8z3QydM46FwIFe6CcI1QUT/view?usp=sharing "orders csv"),
